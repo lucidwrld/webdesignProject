@@ -1,0 +1,118 @@
+.containner{
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+  background-color: #000000;
+  padding: 0;
+  flex-direction: column;
+}
+.aboutus {
+    height: 700px;
+    width: 100%;
+    padding: 0;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto; /* Adjust the grid-template-rows */
+  }
+  
+  .aboutus .name {
+    height: 100px; /* Set the height of the .name div */
+    grid-row: 1 / 2; /* Start at row 1 and end at row 2 */
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+  }
+  .aboutus .name h1{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+  }
+  
+  .aboutus .image {
+    height: 300px; /* Set the height of the .image div */
+    grid-row: 1 / 4; /* Start at row 2 and end at row 4 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutus .image img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+  }
+  
+  .aboutus .details {
+    padding: 30px;
+    grid-row: 2 / 4; /* Start at row 1 and end at row 4 */
+  }
+  .aboutus .details p{
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+
+  .aboutus1 {
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto; /* Adjust the grid-template-rows */
+  }
+  
+  .aboutus1 .name {
+    height: 100px; /* Set the height of the .name div */
+    grid-row: 1 / 2; /* Start at row 1 and end at row 2 */
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+  }
+  .aboutus1 .name h1{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+  }
+  
+  .aboutus1 .image {
+    height: 300px; /* Set the height of the .image div */
+    grid-row: 1 / 4; /* Start at row 2 and end at row 4 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutus1 .image img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+  }
+  
+  .aboutus1 .details {
+    padding: 30px;
+    grid-row: 2 / 4; /* Start at row 1 and end at row 4 */
+  }
+  .aboutus1 .details p{
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+  
+  @media (min-width:280px) and (max-width: 999px) {
+   
+.aboutus, .aboutus1 {
+  height: 700px;
+  width: 100%;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+} 
+  }
