@@ -116,3 +116,38 @@
   margin-bottom: 100px;
 } 
   }
+  @media (min-width:280px) and (max-width: 500px) {
+   
+  .aboutus .name h1{
+    font-size: 25px;
+  }
+  
+  .aboutus .image {
+    height: 250px; 
+  }
+  .aboutus .image img{
+    width: 230px;
+    height: 230px;
+  }
+  
+  .aboutus .details p{
+    font-size: 13px;
+  }
+  
+  .aboutus1 .name h1{
+    font-size: 25px;
+  }
+  
+  .aboutus1 .image {
+    height: 250px; /* Set the height of the .image div */
+   
+  }
+  .aboutus1 .image img{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+  }
+  .aboutus1 .details p{
+    font-size: 13px;
+  }
+      }

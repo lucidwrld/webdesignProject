@@ -254,7 +254,7 @@ button, a { transition: var(--transition); }
 }
 
 .nav-toggle-btn span {
-  background: var(--independence);
+  background: #702403;
   width: 22px;
   height: 2px;
   border-radius: 2px;
@@ -267,15 +267,15 @@ button, a { transition: var(--transition); }
 
 .nav-toggle-btn span.three { transform: scaleX(0.4); }
 
-.nav-toggle-btn:is(:hover, :focus) span { background: var(--carolina-blue); }
+.nav-toggle-btn:is(:hover, :focus) span { background: #702403; }
 
 .nav-toggle-btn.active span {
   transform: scaleX(1);
-  background: var(--carolina-blue);
+  background:#702403;
 }
 
 .navbar {
-  background: var(--alice-blue-1);
+  background: #000000;
   position: fixed;
   top: 70px;
   bottom: 0;
